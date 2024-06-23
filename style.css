@@ -25,6 +25,7 @@ display: none;
 }
 .headerka h1{
     padding: 10px;
+    color: black;
 }
 .headerka ul{
     display: flex;
@@ -67,6 +68,7 @@ display: none;
  .hero h1{
     font-size: 80px;
     padding-top: 80px;
+    color: orange;
 
  }
  .hero p{
@@ -82,7 +84,7 @@ display: none;
  }
  .LearnMore{
     font-size: 30px;
-    color: black;
+    color: orange;
     border: 3px black solid;
     border-radius: 12px;
     padding: 10px 40px;
