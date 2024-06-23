@@ -1,0 +1,720 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserra";
+}
+
+
+
+
+/* qeybta headerka  */
+
+
+.headerka i{
+display: none;
+}
+.headerka{
+    display: flex;
+     justify-content: space-between;
+     padding: 10px;
+    
+      align-items: center;
+      font-size: 28px;
+}
+.headerka h1{
+    padding: 10px;
+}
+.headerka ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 10px;
+}
+
+
+
+/* qeybta sawirka */
+
+
+
+  .LoginBtn{
+    font-size: 30px;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 40px;
+    background-color: black;
+ }
+ .singIn{
+    font-size: 30px;
+    color: black;
+    border: 3px black solid;
+    border-radius: 12px;
+    padding: 10px 40px;
+    background-color: white;
+ } 
+ .hero{
+    text-align: center;
+    color: white;
+    height: 550px;
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-size: 100% 550px;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.6)), url(https://img.freepik.com/free-photo/green-field_155999-13.jpg?t=st=1716638312~exp=1716641912~hmac=72f1e610292b40e803bfd0bf47dd06ee436c26298f28fa6ac0e873fad0f48fd1&w=900);
+ }
+ .hero h1{
+    font-size: 80px;
+    padding-top: 80px;
+
+ }
+ .hero p{
+    margin-bottom: 40px;
+ }
+ .GetStarted{
+     font-size: 30px;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 40px;
+    background-color: black;
+ }
+ .LearnMore{
+    font-size: 30px;
+    color: black;
+    border: 3px black solid;
+    border-radius: 12px;
+    padding: 10px 40px;
+    background-color: white;
+ }
+
+
+ .main{
+ font-size: 40px ;
+ padding: 40px;
+ padding-left: 80px;
+ margin: 10px;
+ }
+ .main h1{
+   width: 620px;
+   height: 450px;
+   top: 1109px;
+   left: 85px;
+ color:  #204E51;
+ margin-top: 20px;
+
+ }
+.main p{
+width: 620px;
+height: 60px;
+top: 1583px;
+left: 85px;
+margin-top: 90px;
+font-size: 20px;
+padding-top: 90px;
+padding: 10px;
+
+ 
+ }
+ .main button{
+   background-color:  #204E51;
+   color: white;
+   width: 175.99px;
+   height: 54px;
+   border-radius: 8px 0px 0px 0px;
+   font-weight: bold;
+   font-size: 30px;
+ }
+
+ .sawir{
+   position: relative;
+   width: 550px;
+   border-radius: 25px 0px 0px 0px;
+
+ }
+ .f {
+   display: flex;
+ }
+ .sawir img{
+   padding-right: 10px;
+}
+.sawir p{
+   height: 60px;
+   width: 260px;
+   background-color: rgb(255, 254, 254);
+   color: #204E51 ;
+   border-radius: 8px;
+   text-align: center;
+   padding-top: 15px;
+   position: absolute;
+   bottom: 160px;
+   right: 110px;
+   font-size: 30px;
+}
+
+
+
+/* qeybta service ka  */
+
+
+
+.service-title{
+   text-align: center;
+}
+.service-title h1 {
+font-size: 120px;
+}
+ .service-title p{
+   margin: 10px 430px;
+ }
+
+ .service-parent{
+   color: white;
+  gap: 40px;
+  margin: 50px 2px;
+   display: flex;
+   justify-content: center;
+ }
+ .service-parent .service{
+   border-radius: 10px;
+   background-color: #204E51;
+   width: 250px;
+   height: 300px;
+   margin: 12px;
+text-align: center;
+padding-top: 20px;
+
+ }
+ .service i{
+   padding-top: 90px;
+   font-size: 60px;
+   padding-bottom: 17px;
+ }
+
+ .centar{
+
+      text-align: center;
+   }
+.centar h1 {
+   font-size: 120px;
+   }
+  .centar p{
+      margin: 10px 430px;
+    }
+ 
+
+    /* qeybta sawirka io qoraalka  */
+
+    .Product-parent{
+      gap: 45px;
+      display: flex;
+      justify-content: center;
+      margin: 50px 2px;
+      text-align: center;
+    }
+    .product{
+      background-color: blue;
+      width: 300px;
+      height: 560px;
+      border-radius: 10px;
+      background-color: lightblue;
+   }
+   .product img{
+width: 200px;
+/* border-radius: 10px;
+margin-bottom: 30px; */
+padding-top: 90px;
+font-size: 60px;
+padding-bottom: 17px;
+   }
+
+
+
+
+   .sustain{
+      color: white;
+      height: 500px;
+      background-image:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.6)),  url(https://img.freepik.com/free-photo/green-field_155999-13.jpg?t=st=1716638312~exp=1716641912~hmac=72f1e610292b40e803bfd0bf47dd06ee436c26298f28fa6ac0e873fad0f48fd1&w=900);
+      background-repeat: no-repeat;
+     background-size: 100% 500px;
+   }
+   .sustain h1{
+       font-size: 90px;
+   }
+
+   .Learn1{
+  background-color:  #204E51;
+  color: white;
+  width: 175.99px;
+  height: 54px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 20px;
+}
+ .Contact1{
+ 
+ /* border: 4px #204E51 solid ; */
+ font-size: 20px;
+ width: 175.99px;
+ height: 54px;
+   
+}
+
+
+
+/* waa qeybta benefitka ah  */
+
+
+.benefit-parent{
+ padding: 10px;
+   display: flex;
+  justify-content: center; 
+  gap: 100px;
+  margin-top: 40px;
+   
+}.benefit-left{
+   width: 500px;
+   margin: 20px;
+}
+.benefit-right{
+   background-color: #204E51;
+   height: 600px;
+   width: 550px;
+   border-radius: 10px;
+}
+.benefit-left h1{
+   font-size: 65px;
+   margin-bottom: 20px;
+
+}
+.benefit-left p{
+   margin-bottom: 30px;
+}
+.benefit-left button{
+   background-color:  #204E51;
+   color: white;
+   width: 175.99px;
+   height: 54px;
+   border-radius: 8px ;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.icon-parent{
+   margin: 30px;
+   color: white;
+   display: flex;
+    gap: 60px; 
+}
+
+.icon-parent i{
+   font-size: 70px;
+}
+.icon-parent h1{
+   font-size: 60px;
+}
+
+.Testimonials1{
+   height: 600px;
+   display: flex;
+ justify-content: center;
+   margin: 10px;
+}
+.test1 h1{
+   text-align: center;
+   font-size: 60px;
+   color: #204E51;
+   padding-top: 60px;
+}
+.test1 p{
+   text-align: center;
+   color: #767681;
+}
+
+ .sawirada{
+   display: flex;
+   justify-content: center;
+ gap: 70px;
+ }
+ .Innovations{
+   display: flex;
+   background-color: white;
+   height: 500px;
+ }
+.terminal{
+   background-color: #204E51;
+   color: white;
+   width: 1010px;
+   height: 671px;
+   top: 5244px;
+   left: 203px;
+   border-radius: 20px 0px 0px 0px;
+}
+
+
+/* Qeybta Generalka madeline */
+
+
+
+ 
+
+
+ 
+.madeline-back{
+   background-color: #204E51;
+   color: white;
+   width: 900px;
+   height: 437px;
+   border-radius: 20px;
+ margin-top: -311px;
+  margin-left: 200px;
+  padding: 50px;
+  display: flex;
+   
+}
+.madeline{
+   padding-left: 40px;
+}
+.madeline i{
+   color: yellow;
+ font-size: 40px;
+ gap: 40px;
+ margin-top: 36px;
+}
+.madeline h1{
+   margin-top: 10px;
+   padding: 6px;
+ font-size: 50px;
+}
+.madeline p{
+   font-family:   'Open Sans', 'Helvetica Neue', sans-serif;
+   padding: 6px;
+   font-size: 10px;
+}
+.madeline span{
+   font-family:   'Open Sans', 'Helvetica Neue', sans-serif;
+   padding: 6px;
+   font-size: 15px;
+}
+ 
+
+
+ /* qeybta-sawirada */
+ .qeybta-sawirada{
+   display: flex;
+   gap: 20px;
+   padding: 20px;
+   justify-content: center;
+ padding: 30px;
+ }
+
+/* qeybta 0 aad ee imageka */
+
+
+ .qeybta-sawirada0 img{
+   width: 400px;
+   height: 340px;
+   border-radius: 20px;
+   padding: 10px;
+ }
+ .qeybta-sawirada0 h1{
+  padding: 6px;
+  margin-left: 20px; 
+  color: #204E51;
+ }
+.qeybta-sawirada0 p{
+ padding: 6px;
+ margin: 20px;
+ color:#1E1E1E;
+}
+.qeybta-sawirada0 a{
+ margin: 10px;
+ padding: 10px;
+}
+
+
+
+
+/* qeybta 1 aad ee imageka */
+
+
+ .qeybta-sawirada1 img{
+   width: 400px;
+   height: 340px;
+   border-radius: 20px;
+   padding: 10px;
+ }
+ .qeybta-sawirada1 h1{
+   padding: 6px;
+   margin-left: 20px; 
+   color: #204E51;
+  }
+ .qeybta-sawirada1 p{
+  padding: 6px;
+  margin: 20px;
+  color:#1E1E1E;
+ }
+ .qeybta-sawirada1 a{
+  margin: 10px;
+  padding: 10px;
+ }
+
+
+
+
+
+ /* qeybta 1 aad ee imageka */
+
+
+
+
+ .qeybta-sawirada2 img{
+   width: 400px;
+   height: 340px;
+   border-radius: 20px;
+   padding: 10px;
+ }
+ .qeybta-sawirada2 h1{
+   padding: 6px;
+   margin-left: 20px; 
+   color: #204E51;
+  }
+ .qeybta-sawirada2 p{
+  padding: 6px;
+  margin: 20px;
+  color:#1E1E1E;
+ }
+ .qeybta-sawirada2 a{
+  margin: 10px;
+  padding: 10px;
+ }
+ 
+/* 
+ contactska  */
+
+ .back{
+   display: flex;
+   justify-content: space-between;
+   color: white;
+width: 1476px;
+height: 586px;
+background-color: #204E51;
+padding: 80px;
+align-items: center;
+ }
+ .back i{
+   background-color: white;
+   color: #204E51;
+   border-radius: 5px;
+   margin-top: 50x;
+   height: 20px;
+   width: 20px;
+   padding-left: 7px;
+   padding-top: 6px;
+   margin-left: 20px;
+ }
+ .social{
+padding: 40px;
+
+ }
+ .social h1{
+   font-size: 60px;
+ }
+ .social p{
+   margin: 10px;
+   font-size: 30px;
+ }
+ .pageska{
+   list-style: none;
+   font-size: 23px;
+   padding-left: 20px;
+ }
+ .aboutka{
+   list-style: none;
+   font-size: 23px;
+   padding-right: 20px;
+ }
+ @media screen and (max-width: 600px){
+   .headerka{
+      padding: 20px;
+   }
+.headerka ul{
+display: none;
+}
+.headerka .btn{
+display: none;
+}
+.headerka i{
+   display: block;
+   font-size: 60px;
+}
+.headerka h1{
+   font-size: 24px;
+}
+.hero h1{
+font-size: 30px;
+margin: 10px;
+}
+ .GetStarted{
+   margin-bottom: 30px;
+ }
+.f {
+display: grid;
+ grid-template-columns: 0px;
+} 
+.main{
+   display: grid;
+}
+ .main h1{
+ font-size: 24px;
+ padding-left: 60px;
+ margin-left: -100px;
+ }
+ .main p{
+ font-size: 20px;
+ }
+ .main button{
+   font-size: 30px;
+    margin-top: 40px;
+   margin-left: -55px;
+ }
+ .sawir img{
+   height: 370px;
+   width: 390px;
+ }
+ .sawir p{
+   height: 50px;
+   width: 180px;
+   margin-bottom: -150px;
+   margin-right: 170px;
+ }
+ .service-title{
+   display: grid;
+ }
+ .service-title h1{
+   font-size: 50px;
+ }
+ 
+ .service-title p{
+
+   /*  */
+
+
+ }
+
+ .service-parent
+ {
+   display: grid;
+ }
+ .centar{
+   display: grid;
+
+ }
+ .centar h1{
+font-size: 18px;
+ 
+ }
+ .centar p{
+ 
+ }
+ 
+
+.Product-parent{
+   display: grid;
+}
+
+.sustain{
+   display: grid;
+}
+.sustain h1{
+   text-align: center;
+font-size: 30px;
+padding-top: 20px;
+}
+.sustain .btn1{
+   display: grid;
+   padding-left: 100px;
+   margin-top: none;
+}
+.benefit-parent{
+   display: grid;
+}
+ .benefit-left{
+   display: grid;
+ }
+ .benefit-left h1{
+   font-size: 50px;
+  text-align: center;
+ }
+ .benefit-left p{
+   text-align: center;
+   font-size: 20px;
+   margin: 10px 80px;
+ }
+ .benefit-left button{
+   margin: 10px;
+   margin-left: 160px;
+ }
+ .benefit-right {
+ display: grid;
+ }
+ .benefit-right i{
+   padding-left: 130px;
+   font-size: 60px;
+ }
+ .benefit-right h1{
+   font-size: 25px;
+ }
+ .benefit-right p{
+   font-size: 15px;
+ }
+
+ .qeybta-sawirada {
+   display: grid;
+ }
+ .qeybta-sawirada img{
+   width: 300px;
+   height: 200px;
+ }
+ .back{
+   display: grid;
+ }
+ .social h1{
+   font-size: 50px;
+   margin-left: -100px;
+ }
+ .social p{
+   padding: 10px;
+   font-size: 20px;
+   margin-left: -100px;
+ }
+ 
+   .back i{
+      background-color: white;
+      color: #204E51;
+      border-radius: 5px;
+      margin-top: 50x;
+      height: 20px;
+      width: 20px;
+      padding-left: 7px;
+      padding-top: 6px;
+      margin-left: 20px;
+    }
+ 
+   
+ 
+ .pageska {
+   display: grid; 
+   margin-left: -50px;
+ }
+ .aboutka
+ {
+   display: grid; 
+   margin-left: -30px;
+ }
+ }
+ 
+ 
+
+ 
